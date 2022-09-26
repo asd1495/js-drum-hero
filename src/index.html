@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Hero</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="icon" href="../png-clipart-drum-kits-percussion-musical-instruments-cymbal-drum-television-drum.png" type="image/icon type">
+  <script src="https://kit.fontawesome.com/81da2a282c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Popup message when page loads-->
+  <div class="popup">
+    <h2>Welcome to JS Drum Hero!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cum modi deleniti et quasi est vero corrupti sit ut accusamus officiis doloremque? Reprehenderit commodi nulla consectetur dolore dolores modi corporis!</p>
+    <button id="close">Lets rock!</button>
+  </div>
+  <!--Drum kit keys-->
+  <div class="keys">
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="85" class="key">
+      <kbd>U</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="73" class="key">
+      <kbd>I</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="79" class="key">
+      <kbd>O</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="80" class="key">
+      <kbd>P</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="81" src="sounds/clap.wav"></audio>
+  <audio data-key="87" src="sounds/hihat.wav"></audio>
+  <audio data-key="69" src="sounds/kick.wav"></audio>
+  <audio data-key="82" src="sounds/openhat.wav"></audio>
+  <audio data-key="89" src="sounds/boom.wav"></audio>
+  <audio data-key="85" src="sounds/ride.wav"></audio>
+  <audio data-key="73" src="sounds/snare.wav"></audio>
+  <audio data-key="79" src="sounds/tom.wav"></audio>
+  <audio data-key="80" src="sounds/tink.wav"></audio>
+
+<script src="./main.js">
+  
+</script>
+
+<footer>
+  <ul class="footer-content">
+    <li class="footer-content-left">Made with ♥ by Armando Salcedo</li> <br>
+    <li class="footer-content-left"><a href="https://github.com/asd1495" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+    <li></li>
+  </ul>
+</footer>
+</body>
+</html>

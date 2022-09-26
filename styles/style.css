@@ -1,0 +1,119 @@
+:root {
+  --yellow: #ffc600;
+}
+
+html {
+  font-size: 10px;
+  background: url("../how-to-mic-live-drum-kit.jpg") bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.popup {
+  background-color: #ffff;
+  width: 450px;
+  padding: 25px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  display: none;
+  text-align: center;
+  border: .4rem solid var(--yellow);
+  opacity: 95%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  color: var(--yellow);
+  margin-top: 1px;
+  opacity: 100%;
+}
+
+.popup p {
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 15px 0;
+  line-height: 25px;
+}
+
+#close {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  font: 'RocknRoll One', sans-serif;
+  background-color: #ffc600;
+  color: black;
+  text-decoration: none;
+  padding: 5px 0;
+  border-radius: 8px;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid var(--yellow);
+  border-radius: 55px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: var(--yellow);
+  box-shadow: 0 0 1rem var(--yellow);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: var(--yellow);
+}
+
+.footer-content {
+  font-size: 2rem;
+  color: var(--yellow);
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-content-left {
+  left: 10%;
+} 
+
+.fa-brands fa-github {
+  size: 1.5rem;
+}
