@@ -103,17 +103,9 @@ kbd {
   color: var(--yellow);
 }
 
-.footer-content {
-  font-size: 2rem;
+.header-content {
+  font-size: 2.5rem;
   color: var(--yellow);
   display: inline-block;
   list-style: none;
-}
-
-.footer-content-left {
-  left: 10%;
-} 
-
-.fa-brands fa-github {
-  size: 1.5rem;
 }
